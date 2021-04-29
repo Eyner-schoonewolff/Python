@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Estructura</title>
+    <link rel="icon" href="../img/768px-Python-logo-notext.svg.png" sizes="64x64">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/font.css">
+
+</head>
+
+<body>
+    <nav class="barra-navegación">
+
+        <a href="file:///Users/eynerschoonewolff/Desktop/SitioWebPython/index.html">
+            <h5 class="tm" >TM</h5>  <h1 class="Titulo">Python </h1> <img class="logo-nav" src="../img/python.png">
+
+            <ul class="barra-navegación">
+        </a>
+        <li> <a class="p_nave" href="../index.html">Inicio</a> </li>
+        <li><a class="p_nave" href="../html/pagina_2.html"> Creación del lenguaje</a></li>
+        <li> <a class="p_nave" href="../html/pagina_3.html"> Estructura</a> </li>
+        <li> <a class="p_nave" href="../html/pagina_4.html">Condicionales y cliclos</a></li>
+        <li> <a class="p_nave" href="../html/pagina_5.html">Curso Python</a></li>
+        </ul>
+    </nav>
+
+    <div class="bar-social">
+
+        <a href="https://www.facebook.com/pythonenespanol" class="icon icon-facebook" target="_blank"></a>
+
+        <a href="https://www.instagram.com/python.learning/" class="icon icon-instagram" target="_blank"></a>
+        <a href="https://twitter.com/ThePSF" class="icon icon-twitter" target="_blank"></a>
+
+    </div>
+
+
+    <div class="conent">
+        <div class="principal">
+
+            <h3>Estructuras Python</h3>
+
+
+
+            <p>
+
+
+                Python no tiene ningún mecanismo especial para crear estructuras, como la palabra reservada struct en
+                C/C++ y en otros lenguajes. ¿Cómo podemos suplir esta necesidad? Que no nos sorprenda: una estructura no
+                es más que un conjunto de valores asociados a un identificador. Dado que el lenguaje provee varias
+                formas de conseguir esto, no fue necesario añadir una nueva.
+                <br>
+                <br>
+                En la sección de microrecursos tenemos un pequeño artículo sobre cómo crear una estructura en Python.
+                Allí recomendamos dos métodos: el primero consiste en simplemente crear una clase.
+
+
+            </p>
+            <h4>Ejemplos de estructuras de control de flujo condicionales</h4>
+
+            <p>Las estructuras de control condicionales, son aquellas que nos permiten evaluar si una o más condiciones
+                se cumplen, para decir qué acción vamos a ejecutar. La evaluación de condiciones, solo puede arrojar 1
+                de 2 resultados: verdadero o falso (True o False).
+                <br>
+                <br>
+                En la vida diaria, actuamos de acuerdo a la evaluación de condiciones, de manera mucho más frecuente de
+                lo que en realidad creemos: Si el semáforo está en verde, cruzar la calle. Si no, esperar a que el
+                semáforo se ponga en verde. A veces, también evaluamos más de una condición para ejecutar una
+                determinada acción: Si llega la factura de la luz y tengo dinero, pagar la boleta.
+                <br>
+                <br>
+                Para describir la evaluación a realizar sobre una condición, se utilizan operadores relacionales (o de
+                comparación):
+
+            </p>
+
+            <table class="tabla">
+                <tr>
+                    <td class="encabezado"><strong> Simbolo </strong></td>
+                    <td class="encabezado"><strong> Significado </strong></td>
+                    <td class="encabezado"><strong> Ejemplo </strong></td>
+                    <td class="encabezado"><strong> Resultado </strong></td>
+
+                </tr>
+
+                <tr>
+                    <td class="primero"> = = </td>
+                    <td class="primero"> Igual que </td>
+                    <td class="primero"> 5 = = 7 </td>
+                    <td class="primero"> False </td>
+
+                </tr>
+
+                <tr>
+                    <td class="segundo"> != </td>
+                    <td class="segundo"> Distinto que </td>
+                    <td class="segundo"> rojo != verde </td>
+                    <td class="segundo"> True </td>
+
+                </tr>
+
+                <tr>
+                    <td class="primero"> < </td>
+                    <td class="primero"> Menor que </td>
+                    <td class="primero"> 8 < 12 </td>
+                    <td class="primero"> True </td>
+
+                </tr>
+
+
+                <tr>
+                    <td class="segundo"> > </td>
+                    <td class="segundo"> Mayor que </td>
+                    <td class="segundo"> Mayor que </td>
+                    <td class="segundo"> True </td>
+
+                </tr>
+
+                <tr>
+                    <td class="primero"> <= </td>
+                    <td class="primero"> Menor o igual que </td>
+                    <td class="primero"> 12 <= 12</td>
+                    <td class="primero"> True </td>
+
+                </tr>
+
+                <tr>
+                    <td class="segundo"> >= </td>
+                    <td class="segundo"> Mayor o igual que </td>
+                    <td class="segundo"> 4 >= 5 </td>
+                    <td class="segundo"> False </td>
+
+                </tr>
+            </table>
+
+
+            <p>Y para evaluar más de una condición simultáneamente, se utilizan <b>operadores lógicos:</b> </p>
+
+
+            <table class="tabla">
+                <tr>
+                    <td class="encabezado"><strong> Operador </strong></td>
+                    <td class="encabezado"><strong> Significado </strong></td>
+                    <td class="encabezado"><strong> Ejercicios </strong></td>
+                    <td class="encabezado"><strong> Resultado </strong></td>
+
+                </tr>
+
+                <tr>
+                    <td class="primero">and</td>
+                    <td class="primero"> 5 = = 7 and 7 < 12 </td>
+                    <td class="primero">False and False</td>
+                    <td class="primero">False</td>
+
+                </tr>
+
+                <tr>
+                    <td class="segundo"> and </td>
+                    <td class="segundo"> 9 < 12 and 12> 7 </td>
+                    <td class="segundo"> True and True</td>
+                    <td class="segundo"> True </td>
+
+                </tr>
+
+                <tr>
+                    <td class="primero"> and </td>
+                    <td class="primero"> 9 < 12 and 12> 15</td>
+                    <td class="primero"> True and False </td>
+                    <td class="primero"> False </td>
+
+                </tr>
+
+
+                <tr>
+                    <td class="segundo"> or </td>
+                    <td class="segundo"> 12 = = 12 or 15 < 7 </td>
+                    <td class="segundo">True or False</td>
+                    <td class="segundo"> True </td>
+
+                </tr>
+
+                <tr>
+                    <td class="primero"> or </td>
+                    <td class="primero"> 7 > 5 or 9 < 12 </td>
+                    <td class="primero"> True or True</td>
+                    <td class="primero"> True </td>
+
+                </tr>
+
+                <tr>
+                    <td class="segundo"> xor </td>
+                    <td class="segundo"> 4 = = 4 xor 9 > 3 </td>
+                    <td class="segundo"> True o True </td>
+                    <td class="segundo"> False </td>
+
+                </tr>
+
+                <tr>
+                    <td class="primero"> xor </td>
+                    <td class="primero"> 4 = = 4 xor 9 < 3 </td>
+                    <td class="primero"> True o False </td>
+                    <td class="primero"> True </td>
+
+                </tr>
+            </table>
+
+
+
+
+        </div>
+        <aside class="column3">
+            <h4>Más sobre Python</h4>
+
+            <h3 class="info">Libros para aprender Python </h3>
+
+            <a href="https://www.escuelapython.com/los-mejores-libros-aprender-programar-python/"><img
+                    class="image_noticias" src="../img/libros_python.jpg" alt=""></a>
+            <p class="p_noticias">
+
+                Python sigue ocupando las primeras posiciones en todas las listas de popularidad que se enfocan sobre
+                lenguajes de programación, y es uno de los más recomendados para principiantes. <br> Desde
+                introducciones básicas hasta proyectos de inteligencia artificial, el contenido de estos
+                libros para aprender Python notable, y más allá de la barrera del idioma, estamos seguros de que será
+                muy
+                útil.
+
+
+
+            </p>
+
+            <h3 class="info">Primeros pasos creando un bot de Telegram con Python</h3>
+
+            <a href="https://tecnonucleous.com/2021/04/04/como-crear-nuestro-bot-de-telegram-con-python/"><img
+                    class="image_noticias" src="../img/creando-un-bot-en-python.png"></a>
+
+
+            <p class="p_noticias">
+
+                En este post os daremos una pequeña introducción sobre como crear un bot de Telegram usando Python y la
+                lista de herramientas que necesitamos.
+
+                En este caso usaremos Python 3, el 2 no se recomienda usar debido a que está quedando obsoleto y este ya
+                no tiene soporte. En mi caso, para mi entorno de desarrollo utilizo una Raspberry Pi, esta cuenta con el
+                sistema operativo raspiOS de base. Vosotros podéis usar cualquier equipo/pc ya sea Windows, Linux o
+                MacOs.
+
+
+            </p>
+
+
+            <h3 class="info">SlashData: JavaScript y Python cuentan con las comunidades de desarrolladores más grandes
+            </h3>
+
+            <a
+                href="https://tecnoticias.net/2021/04/27/slashdata-javascript-y-python-cuentan-con-las-comunidades-de-desarrolladores-mas-grandes/"><img
+                    class="image_noticias" src="../img/desarrolladores_Python.jpg"></a>
+
+
+            <p class="p_noticias">
+
+                Un nuevo informe de SlashData destaca el enorme crecimiento en la comunidad global de desarrolladores
+                durante los últimos seis meses.
+                <br>
+                Los especialistas en investigación de la economía de los desarrolladores estiman que ahora hay 24,3
+                millones de desarrolladores globales, a partir del primer trimestre de 2021. Esto ha aumentado en
+                alrededor del 14 por ciento desde los 21,3 millones de octubre de 2020. <br>
+                Python ocupa el segundo lugar en tamaño de comunidad con 10,1 millones. La comunidad de desarrolladores
+                del lenguaje está creciendo más rápido de los lenguajes de programación establecidos a una tasa del 20
+                por ciento.
+
+            </p>
+
+        </aside>
+
+
+    </div>
+
+
+    <footer>
+        <lu>
+            <li>
+                <p class="derechos">Autores del Sitio Web</p>
+            </li>
+            <li class="nombres"><b>Eyner Alfonso Schoonewolff</b></li>
+            <li class="nombres"><b>Brajhan Pedrozo</b></li>
+            <li class="nombres"><b>Andry Sierra</b></li>
+        </lu>
+    </footer>
+
+
+
+</body>
+
+
+
+
+</body>
+
+</html>
